@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="aNEQ34GWLC76sm6NKPa5XtsphvREeWJweDaNMciLObAEnFqq6fhtZ8LFPL9yptM_lULJshseKhgRD8tb_vsU8w==">
+    <title>Я бы съел</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109755446-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109755446-1');
+</script>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type='text/javascript'>
+$(document).mouseleave(function(e){
+    if (e.clientY < 10) {
+        $(".exitblock").fadeIn("fast");
+    }    
+});
+$(document).click(function(e) {
+    if (($(".exitblock").is(':visible')) && (!$(e.target).closest(".exitblock .modaltext").length)) {
+        $(".exitblock").remove();
+    }
+});
+</script>
+
+<link type="text/css" href="css/basic.css" rel="stylesheet" media="screen" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="js/init.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+<link href="bootstrap/css/bootstrap.css?v=1537795125" rel="stylesheet">
+<link href="css/owl.carousel.css?v=1518408884" rel="stylesheet">
+<link href="css/font-awesome.css?v=1518408884" rel="stylesheet">
+<link href="css/magnific-popup.css?v=1518408884" rel="stylesheet">
+<link href="css/style.css?v=1537133937" rel="stylesheet">
+<link href="css/custom.css?v=1538410274" rel="stylesheet">
+<link href="css/swiper.min.css?v=1518408884" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
+<link href="css/swipe.css?v=1518408884" rel="stylesheet"><!-- Start Visual Website Optimizer Asynchronous Code -->
+<!-- <script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=324796,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script> -->
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+</head>
+<body data-spy="scroll" data-offset="80">
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RHRL4G"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+    (function(w, d, u, i, o, s, p) {
+        if (d.getElementById(i)) { return; } w['MangoObject'] = o;
+        w[o] = w[o] || function() { (w[o].q = w[o].q || []).push(arguments) }; w[o].u = u; w[o].t = 1 * new Date();
+        s = d.createElement('script'); s.async = 1; s.id = i; s.src = u;
+        p = d.getElementsByTagName('script')[0]; p.parentNode.insertBefore(s, p);
+    }(window, document, '//widgets.mango-office.ru/widgets/mango.js', 'mango-js', 'mgo'));
+    mgo({calltracking: {id: 11142, elements: [{selector: '.mgo-number-11142'}]}});
+</script> -->
+<div id="loading" style="display: none;">
+    <div id="loading-center">
+        <div class="loader">
+            <div id="largeBox"></div>
+            <div id="smallBox"></div>
+        </div>
+    </div>
+</div>
+<!-- loading End -->
+<!-- Header -->
+<header id="header-wrap" style="height:80px;">
+    <div class="container">
+        <div class="text-left col-lg-4 col-md-4 col-xs-4 col-sm-4"><img src ="images/corp/logo.png" style="height: 80px;"></div>
+        <div class="text-center col-lg-4 hidden-md hidden-xs hidden-sm" style="line-height: 80px;"><span class="iq-tw-8 mgo-number-11142">8 (812) 407-3047</span></div>
+        <div class="hidden-lg col-md-8 col-xs-8 col-sm-8" style="line-height: 80px;"><span class="iq-tw-8 mgo-number-11142">8 (812) 407-3047</span></div>
+        <div class="hidden-md hidden-xs hidden-sm text-right  col-lg-4 " style="padding-top:18px;"><button class="dostavka button">Получить консультацию</button></div>
+</header>
+<!-- Header End -->
+<section id="iq-home" class="overview-block-pt" style="height:100vh; background-image: url('images/corp/bg.jpg'); background-size: cover; background-position: center;">
+    <div class="container" style="position: relative;">
+    	<div class="row">
+    		<div class="text-center col-md-12 iq-mt-100">
+    		
+    		</div>
+    	</div>
+        <div class="row">
+            <div class="col-md-12 hero  iq-pt-30" style="margin-top: 170px;">
+                 <h3 class="iq-tw-3 iq-mt-50">Организация корпоративного  <br> питания для сотрудников</h3>
+                <p class="iq-pt-30">Доставка комплексных обедов в индивидуальной упаковке!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="overview-block-pt">
+    <div class="container" style="position: relative;">
+        <div class="row">
+            <div class="col-md-2  col-sm-12 col-xs-12">
+            </div>
+            <div class="col-md-8  col-sm-12 col-xs-12">
+                <h3 class="iq-tw-3 iq-pt-20 text-center">Работоспособность ваших сотрудников в течение всего дня зависит от качества их обеда!</h2>
+                <p class="iq-pt-30 text-center">Хотите узнать больше?</p>
+                <p class="iq-pt-30 text-center">Получите консультацию специалиста по организации питания</p>
+                <div class="row iq-pt-50">
+                    <div class="col-xs-12 text-center">
+                        <button class="dostavka button">Получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12 col-xs-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="overview-block-pt">
+    <div class="container" style="position: relative;">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h3 class="iq-tw-3 iq-pt-20 text-center">Уникальное предложение для бизнеса!<br/>
+Повышаем эффективность ваших сотрудников, доставляя обеды прямо к рабочему месту.</h3>
+            </div>
+            <div class="col-md-2 col-sm-12 col-xs-12">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="how-it-works" class="overview-block-ptb it-works re4-mt-50">
+    <div class="container">
+    	<h3 class="iq-tw-3  text-center">С нами вы приобретаете:</h3>
+        <div class="row iq-pt-50">
+            <div class="col-sm-6 col-md-3 col-xs-12">
+                <div class="iq-works-box text-center">
+                    <span class="ic-round"><img class="ic img-responsive"   src="images/corp/time.png"></span>
+                    <p class="iq-tw-3  iq-mt-25 iq-mb-15" style="min-height:4em; font-size: 20px;">Экономию времени на 
+обеденных перерывах
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3  col-xs-12">
+                <div class="iq-works-box text-center">
+                    <span class="ic-round"><img class="img-responsive"  src="images/corp/worker.png"></span>
+                    <p class="iq-tw-3  iq-mt-25 iq-mb-15" style="min-height:4em; font-size: 20px;">Повышение 
+работоспособности 
+каждого сотрудника</p>
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3  col-xs-12">
+                <div class="iq-works-box text-center">
+                    <span class="ic-round"><img class="img-responsive"  src="images/corp/people.png"></span>
+                    <p class="iq-tw-3  iq-mt-25 iq-mb-15" style="min-height:4em; font-size: 20px;">Избавление от 
+больничных 
+за счет правильного 
+питания</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3  col-xs-12">
+                <div class="iq-works-box text-center">
+                    <span class="ic-round"><img class="img-responsive"  src="images/corp/loyalty.png"></span>
+                    <p class="iq-tw-3 iq-mt-25 iq-mb-15" style="min-height:4em; font-size: 20px;">Лояльность даже 
+от самых 
+несговорчивых 
+работников</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="overview-block-pt">
+    <div class="container" style="position: relative;">
+        <div class="row">
+            <div class="col-md-12  col-sm-12 col-xs-12">
+                <h3 class=" title iq-pt-20 text-center iq-tw-3">Мы предлагаем индивидуальные решения для вашего бизнеса</h2>
+                <div class="row iq-pt-20">
+                    <div class="col-md-4 iq-pt-30">
+                        
+                        <p class="iq-pt-30"><img class="img-responsive" src="images/corporate/3.png"></p>
+                        <h4 class="iq-pt-30" style="font-size: 2.5rem" >Для офисов:</h4>
+                        <p class="iq-pt-30">Доставка обедов по будням</p>
+                        <p class="iq-pt-20">Возможность заказа от пяти обедов<br/>Обеды из трех блюд в индивидуальной упаковке</p>
+                        <p class="iq-pt-20">Готовое меню на неделю<br>Возможность разработки индивидуального меню</p>
+                        <p class="iq-pt-20">Морсы и десерты в подарок при заказе от 20 обедов</p>
+                    </div>
+                    <div class="col-md-4 iq-pt-30">
+                        
+                        <p class="iq-pt-30"><img class="img-responsive " src="images/corporate/4.png"></p>
+                        <h4 class="iq-pt-30" style="font-size: 2.5rem">Для предприятий:</h4>
+                        <p class="iq-pt-30">Доставка обедов по будням и в выходные дни</p>
+                        <p class="iq-pt-20">Возможность заказа от пяти обедов</p>
+                        <p class="iq-pt-20">Обеды из трех блюд в индивидуальной упаковке</p>
+                        <p class="iq-pt-20">Готовое меню на неделю</p>
+                        <p class="iq-pt-20">Сытная добавка при заказе от 20 обедов</p>
+                    </div>
+                    <div class="col-md-4 iq-pt-30">
+                        
+                        <p class="iq-pt-30"><img class="img-responsive " src="images/corporate/5.png"></p>
+                        <h4 class="iq-pt-30" style="font-size: 2.5rem">Для съемочных площадок:</h4>
+                        <p class="iq-pt-30">Доставка обедов в любое время дня и ночи в любую точку города</p>
+                        <p class="iq-pt-20">Возможность заказа от 10 обедов</p>
+                        <p class="iq-pt-20">Обеды из трех блюд в индивидуальной упаковке</p>
+                        <p class="iq-pt-20">Горячие или прохладительные напитки при заказе от 20 обедов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row iq-pt-50">
+            <div class="col-xs-12 text-center">
+                <button class="dostavka button">Получите свое <br> индивидуальное предложение</button>
+            </div>
+        </div>
+        <div class="row iq-pt-50">
+            <div class="col-xs-12 text-center">
+                <a href="/">Доставка от 1-го обеда</a>
+            </div>
+        </div>
+    </div>
+</section>
+  <section id="rewiews" class="overview-block-ptb white-bg iq-mt-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h3 class="title iq-tw-3">Отзывы</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/MuhGeU_1eHM" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Pm0-1c3rtts" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <video controls="controls" width="100%" height="100%">
+                                <source src="images/eshkere.mp4">
+                            </video>
+                        </div>
+						  <div class="swiper-slide">
+                            <iframe width="100%"  height="100%" src="https://www.youtube.com/embed/5qzlBChWDLE" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Manufacture -->
+
+    <section  class="overview-block-ptb white-bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h3 class="title iq-tw-3">Наше производство</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: url('images/banners/2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: bottom !important; height: 500px;">
+                        </div>
+                        <div class="swiper-slide" style="background: url('images/banners/4.jpg'); background-repeat: no-repeat; background-size: cover; background-position: bottom !important; height: 500px;">
+                        </div>
+                        <div class="swiper-slide" style="background: url('images/banners/5.jpg'); background-repeat: no-repeat; background-size: cover; background-position: bottom !important; height: 500px;">
+                        </div>
+                        <div class="swiper-slide" style="background: url('images/banners/8.jpg'); background-repeat: no-repeat; background-size: cover; background-position: bottom !important; height: 500px;">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control right swiper-wrapper-right" href="#">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                    <a class="carousel-control left swiper-wrapper-left" href="#">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----Manufacture----->
+
+    <!-------Sertificate------------>
+    <section  class="overview-block-ptb white-bg">
+        <a name="docs"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h3 class="title iq-tw-3">Наши сертификаты</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 re4-mt-30">
+                    <div class="iq-pricing text-center">
+                            <a href="images/s1.jpg" class="single_image"><img class="img-responsive" src="images/s1.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 re4-mt-30">
+                    <div class="iq-pricing text-center">
+                        <a href="images/s2.jpg" class="single_image"><img class="img-responsive" src="images/s2.jpg"></a>
+                    </div>
+                </div>
+                <div class="col-xs-4  col-sm-4 col-md-4 re4-mt-30">
+                    <div class="iq-pricing text-center">
+                        <a href="images/s3.jpg" class="single_image"><img class="img-responsive" src="images/s3.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----Sertifacate end----->
+
+
+    <!--Contact-->
+    <section id="contact" class="overview-block-ptb white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-title">
+                        <h3 class="title iq-tw-3">Организуем корпоративное питание
+                            в офисах и на производствах</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="it_dostavka">
+                <div class="col-md-6 iq-pt-40">
+                    <div class="row">
+                        <div class="col-sm-3 text">
+                            <span class="round "><img class="img-responsive" src="images/png/003-food.png"></span>
+                        </div>
+                        <div class="col-sm-9 text">
+                            <span class="iq-pt-60" style="padding-left: 15px;">Привезем бесплатные образцы</span>
+                        </div>
+                    </div>
+                    <div class="row iq-mt-30">
+                        <div class="col-sm-3 text">
+                            <span class="round"><img class="img-responsive" src="images/png/007-clipboard.png"></span>
+                        </div>
+                        <div class="text col-sm-9">
+                            <span class="iq-pt-60 " style="padding-left: 15px;" >Составим меню под ваши требования</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 contact-form">
+
+                    <div class="iq-get-in">
+                        <p style="padding-top: 15px; padding-bottom: 15px;">Для получения коммерческого предложения заполните форму ниже</p>
+                        <form class="form-horizontal contact-form" id="corporat" method="post" action="">
+                            <input type="hidden" name="_csrf" value="aNEQ34GWLC76sm6NKPa5XtsphvREeWJweDaNMciLObAEnFqq6fhtZ8LFPL9yptM_lULJshseKhgRD8tb_vsU8w==" />
+                            <input type="hidden" name="type" value="Коомерческое предложение" />
+                            
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="Site Name">
+                            <input type="hidden" name="admin_email" value="katerinasavinav@gmail.com">
+                            <input type="hidden" name="form_subject" value="Form Subject">
+                            <!-- END Hidden Required Fields -->
+                                   
+                            <div class="contact-form">
+                                <div class="section-field">
+                                    <input required id="name" type="text" placeholder="Имя" name="name">
+                                </div>
+                                <div class="section-field">
+                                    <input required type="text" placeholder="Телефон" name="phone">
+                                </div>
+                                <button id="submit" name="submit" type="submit" value="Send" class="button">Получить предложение</button>
+
+                                <p class="iq-pt-15 iq-mt-10 iq-pl-10">Или позвоните о телефону:<br/>
+                                    <span class="mgo-number-11142" style="font-weight: 800">8 (812) 407-3047</span></p>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----Contact End----->
+
+    </div>
+
+    <!-- Main Content END -->
+
+<!-- Footer -->
+
+<footer>
+    <div class="container text-center">
+        <div class="footer-copyright iq-ptb-20" style="padding-bottom: 15px;">
+            <div  class="text-center col-sm-4 col-xs-12">Я бы съел © 2017</div>
+            <div  class="text-center col-sm-4 col-xs-12">
+                <a style="padding-right: 1em;"  target="_blank" href="https://instagram.com/dostavkaobedovspb/"><img width="30px" src="images/in.png"></a>
+                <a style="padding-left: 1em; padding-right: 1em;" target="_blank" href="https://vk.com/dostavkaobedov_spb"><img width="30px" src="images/vk.png"></a>
+                <a style="padding-left: 1em;" target="_blank" href="https://www.ok.ru/yaby.syel"><img width="30px" src="images/ok.png"></a></div>
+            <div  class="col-sm-4 text-center col-xs-12">   Made with ♥ by Kорюшка Digital</div></div>
+    </div>
+</footer>
+
+<!-- Footer END -->
+
+<!-- Модальное Окно  -->
+<div id="overlay">
+    <div class="popup">
+        <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"><span aria-hidden="true">×</span></button>
+        <h4 style="padding: 1rem; line-height: 3.5rem;">Отправь заявку до <nobr><span  style="color:#dc3832" id="data"></span></nobr> получи скидку на корпоративное питание сотрудников 20%</h3>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.js"></script>
+<script src="js/custom.js" async="async"></script>  
+</body>
+</html>
